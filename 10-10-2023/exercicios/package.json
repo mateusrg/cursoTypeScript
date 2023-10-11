@@ -1,0 +1,12 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc exercicio4.ts && node exercicio4"
+  },
+  "author": "",
+  "license": "ISC"
+}
