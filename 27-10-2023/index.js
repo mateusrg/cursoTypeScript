@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var console_1 = require("console");
+var Classes_1 = require("./Classes");
+var funcionario1 = new Classes_1.Funcionario("Joao", 30, 3000);
+var vendedor1 = new Classes_1.Vendedor("Mario", 25, 3000, 50);
+(0, console_1.log)("Detalhes do funcionario padrao:");
+funcionario1.exibirDetalhes();
+(0, console_1.log)("Detalhes do vendedor:");
+vendedor1.calcularSalario();
+vendedor1.exibirDetalhes();
