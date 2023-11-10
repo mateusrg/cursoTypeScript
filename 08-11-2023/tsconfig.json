@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+  }
+}
+  
